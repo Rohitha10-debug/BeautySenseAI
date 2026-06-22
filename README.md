@@ -1,44 +1,150 @@
-# BeautySense AI
+# 🌸 BeautySense AI
 
-BeautySense AI is a single-page web application for real-time sentiment analysis of beauty products, powered by a simulated Generative AI engine.
+**BeautySense AI** is an AI-powered beauty product sentiment analysis platform designed to help users evaluate skincare and cosmetic products through sentiment analytics, review classification, aspect-based insights, and personalized skincare recommendations.
 
-## Features
+Built using **Python, Flask, HTML, CSS, JavaScript, and Chart.js**, the platform delivers an interactive dashboard that transforms customer feedback into actionable insights.
 
-- **Product Analysis**: Enter a beauty product name to analyze its sentiment.
-- **Quick Review Analyzer**: Instantly analyze the sentiment of a single review text.
-- **Sentiment Breakdown**: Visualizes Positive, Negative, Neutral, and Mixed sentiment scores.
-- **Aspect-Based Analysis**: Breaks down sentiment by key aspects like Effectiveness, Texture, and Price.
-- **AI Summary**: Provides a concise summary of customer feedback.
-- **Recommendations**: Suggests similar high-sentiment products with visual previews.
+---
 
-## Prerequisites
+## ✨ Features
 
-- Python 3.x
-- Flask
+### 🔍 Product Sentiment Analysis
 
-## Installation
+Analyze beauty and skincare products using AI-driven sentiment insights.
 
-1.  Clone the repository or download the source code.
-2.  Install Flask:
-    ```bash
-    pip install flask
-    ```
+### 📝 Quick Review Analyzer
 
-## Running the Application
+Instantly classify customer reviews into Positive, Negative, Neutral, or Mixed sentiment categories.
 
-1.  Navigate to the project directory:
-    ```bash
-    cd path/to/project
-    ```
-2.  Run the Flask application:
-    ```bash
-    python app.py
-    ```
-3.  Open your web browser and go to:
-    `http://127.0.0.1:5000`
+### 📊 Interactive Sentiment Dashboard
 
-## Usage
+Visualize customer sentiment through dynamic charts and graphical analytics.
 
-1.  Enter a product name (e.g., "Tatcha Dewy Skin Cream") in the search bar.
-2.  Click "Analyze".
-3.  View the detailed sentiment analysis and recommendations.
+### 🎯 Aspect-Based Analysis
+
+Evaluate key product attributes including:
+
+* Effectiveness
+* Texture
+* Scent
+* Price
+* Packaging
+
+### 🤖 AI Summary Generator
+
+Generate concise summaries highlighting overall customer perception and product performance.
+
+### 🧴 AI Skincare Diary
+
+Create personalized 7-day skincare routines based on:
+
+* Skin Type
+* Primary Skin Concerns
+* Product Preferences
+
+### 💎 Smart Product Recommendations
+
+Discover highly-rated skincare products with direct product references and recommendations.
+
+---
+
+## 🖼️ Application Preview
+
+### Home Dashboard
+
+<img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/67c5faae-d497-40da-b61e-b341b03e42b4" />
+
+### AI Skincare Diary
+
+<img width="1920" height="931" alt="image" src="https://github.com/user-attachments/assets/84844e61-0d4f-41a2-8039-b75ac4b8bdda" />
+
+### Visualization
+
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/30b02579-3d83-4ac1-ac21-55afd2ce9a0b" />
+
+### AI Summary and Recent Reviews
+
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/6a8e9d4d-3f5a-4260-9381-35914446f363" />
+
+### Product Recommendations
+
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/3a90fe47-6071-4864-86a2-e071bbdb10ea" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+* Python
+* Flask
+* Flask-CORS
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Data Visualization
+
+* Chart.js
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+BeautySenseAI/
+│
+├── app.py
+├── app_v2.py
+├── index.html
+├── style.css
+├── app.js
+├── requirements.txt
+├── README.md
+└── assets/
+```
+
+---
+
+## 📈 Use Cases
+
+* Analyze customer sentiment for beauty and skincare products.
+* Identify strengths and weaknesses of cosmetic products.
+* Generate personalized skincare recommendations.
+* Explore customer review trends through visual analytics.
+* Support data-driven product evaluation and decision-making.
+
+---
+
+## 🔮 Future Enhancements
+
+* Integration with Transformer-based NLP models
+* Real-time beauty product review scraping
+* Advanced product comparison dashboard
+* User authentication and profile management
+* Personalized recommendation engine
+* AI-powered skincare assistant chatbot
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Rohitha Panchamukhi M**
+
+GitHub: https://github.com/Rohitha10-debug
+
