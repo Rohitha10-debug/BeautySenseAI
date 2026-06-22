@@ -1,0 +1,65 @@
+{
+  "ai_summary": "Based on recent customer feedback, sephora lipstick is highly regarded. Overall, it is considered a premium choice.",
+  "key_aspects_sentiment": [
+    {
+      "aspect": "Effectiveness",
+      "sentiment": "Positive (84%)"
+    },
+    {
+      "aspect": "Texture",
+      "sentiment": "Positive (71%)"
+    },
+    {
+      "aspect": "Scent",
+      "sentiment": "Neutral (42%)"
+    },
+    {
+      "aspect": "Price",
+      "sentiment": "Negative (67%)"
+    },
+    {
+      "aspect": "Packaging",
+      "sentiment": "Positive (87%)"
+    }
+  ],
+  "overall_sentiment": {
+    "Mixed": 6,
+    "Negative": 12,
+    "Neutral": 10,
+    "Positive": 72
+  },
+  "recommendations": [
+    {
+      "image_url": "https://placehold.co/600x400/20B2AA/ffffff?text=Drunk+Elephant+Protini",
+      "name": "Drunk Elephant Protini Polypeptide Cream",
+      "product_url": "https://www.drunkelephant.com/collections/moisturizers/products/protini-polypeptide-cream",
+      "reason": "Strengthens and firms skin"
+    },
+    {
+      "image_url": "https://placehold.co/600x400/A2D2FF/ffffff?text=Laneige+Water+Mask",
+      "name": "Laneige Water Sleeping Mask",
+      "product_url": "https://us.laneige.com/products/water-sleeping-mask",
+      "reason": "Intensive overnight hydration"
+    },
+    {
+      "image_url": "https://placehold.co/600x400/FFB6C1/ffffff?text=Glow+Recipe+Watermelon",
+      "name": "Glow Recipe Watermelon Glow AHA Night Treatment",
+      "product_url": "https://www.glowrecipe.com/products/watermelon-glow-aha-night-treatment",
+      "reason": "Exfoliates and hydrates for glowing skin"
+    }
+  ],
+  "sample_reviews": [
+    {
+      "sentiment": "Positive",
+      "text": "I absolutely love sephora lipstick! It changed my skin texture overnight."
+    },
+    {
+      "sentiment": "Negative",
+      "text": "Too expensive for the amount you get. I didn't see a huge difference."
+    },
+    {
+      "sentiment": "Neutral",
+      "text": "It's okay. Smells nice but I'm not sure if it's worth the hype."
+    }
+  ]
+}

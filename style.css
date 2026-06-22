@@ -1,0 +1,232 @@
+:root {
+    --primary-color: #ffb7b2;
+    /* Pastel Red/Rose */
+    --secondary-color: #a8e6cf;
+    /* Pastel Green */
+    --accent-color: #c4faf8;
+    /* Pastel Blue */
+    --text-dark: #f0f0f0;
+    /* Light text for dark mode */
+    --text-light: #ccc;
+    --bg-dark: #121212;
+    /* Deep dark background */
+    --card-bg: #1e1e1e;
+    /* Dark card background */
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: transparent;
+    /* Transparent to show fixed background */
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+/* --- Animated Background (Dark Gradient) --- */
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    /* Dark gradient */
+    overflow: hidden;
+}
+
+/* Floating Product Icons Animation */
+.animated-background::before,
+.animated-background::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3050/3050239.png'),
+        /* Lipstick */
+        url('https://cdn-icons-png.flaticon.com/512/2663/2663114.png'),
+        /* Cream */
+        url('https://cdn-icons-png.flaticon.com/512/3163/3163220.png');
+    /* Perfume */
+    background-size: 100px 100px;
+    opacity: 0.1;
+    /* Subtle opacity for gradient */
+    filter: invert(1);
+    animation: floatBackground 60s linear infinite;
+}
+
+.animated-background::after {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1940/1940922.png'),
+        /* Mirror */
+        url('https://cdn-icons-png.flaticon.com/512/2663/2663133.png');
+    /* Brush */
+    animation-direction: reverse;
+    animation-duration: 80s;
+    opacity: 0.08;
+}
+
+@keyframes floatBackground {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* --- Typography & Colors --- */
+.text-primary-custom {
+    color: #ffb7b2;
+}
+
+.text-secondary-custom {
+    color: #a8e6cf;
+}
+
+.text-muted {
+    color: #adb5bd !important;
+}
+
+.bg-light-custom {
+    background-color: var(--card-bg);
+}
+
+/* --- Buttons --- */
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #121212;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #ff9e99;
+    border-color: #ff9e99;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 183, 178, 0.4);
+}
+
+.btn-outline-primary-custom {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-outline-primary-custom:hover {
+    background-color: var(--primary-color);
+    color: #121212;
+}
+
+/* --- Cards --- */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid #333;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: var(--text-dark);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* --- Recommendation Cards --- */
+.recommendation-card {
+    background: #252525;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+}
+
+.recommendation-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+}
+
+/* --- Review Cards --- */
+.review-card {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #555;
+    background-color: #2a2a2a;
+    color: #ddd;
+}
+
+.review-card.positive {
+    border-left-color: var(--secondary-color);
+    background-color: rgba(168, 230, 207, 0.1);
+}
+
+.review-card.negative {
+    border-left-color: var(--primary-color);
+    background-color: rgba(255, 183, 178, 0.1);
+}
+
+.review-card.neutral {
+    border-left-color: #ffe4b5;
+    background-color: rgba(255, 228, 181, 0.1);
+}
+
+/* --- Aspect Badges --- */
+.aspect-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.aspect-item:last-child {
+    border-bottom: none;
+}
+
+/* --- Modals --- */
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-dark);
+    border: 1px solid #444;
+}
+
+.modal-header {
+    border-bottom: 1px solid #444;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+.form-control,
+.form-select {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #333;
+    color: #fff;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 183, 178, 0.25);
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+/* --- Diary Result --- */
+.bg-light {
+    background-color: #2a2a2a !important;
+}
