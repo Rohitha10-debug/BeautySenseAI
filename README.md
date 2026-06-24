@@ -1,4 +1,4 @@
-# 🌸 BeautySense AI
+#  BeautySense AI
 
 **BeautySense AI** is an AI-powered beauty product sentiment analysis platform designed to help users evaluate skincare and cosmetic products through sentiment analytics, review classification, aspect-based insights, and personalized skincare recommendations.
 
@@ -6,21 +6,21 @@ Built using **Python, Flask, HTML, CSS, JavaScript, and Chart.js**, the platform
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔍 Product Sentiment Analysis
+###  Product Sentiment Analysis
 
 Analyze beauty and skincare products using AI-driven sentiment insights.
 
-### 📝 Quick Review Analyzer
+###  Quick Review Analyzer
 
 Instantly classify customer reviews into Positive, Negative, Neutral, or Mixed sentiment categories.
 
-### 📊 Interactive Sentiment Dashboard
+###  Interactive Sentiment Dashboard
 
 Visualize customer sentiment through dynamic charts and graphical analytics.
 
-### 🎯 Aspect-Based Analysis
+###  Aspect-Based Analysis
 
 Evaluate key product attributes including:
 
@@ -30,11 +30,11 @@ Evaluate key product attributes including:
 * Price
 * Packaging
 
-### 🤖 AI Summary Generator
+###  AI Summary Generator
 
 Generate concise summaries highlighting overall customer perception and product performance.
 
-### 🧴 AI Skincare Diary
+###  AI Skincare Diary
 
 Create personalized 7-day skincare routines based on:
 
@@ -42,13 +42,13 @@ Create personalized 7-day skincare routines based on:
 * Primary Skin Concerns
 * Product Preferences
 
-### 💎 Smart Product Recommendations
+###  Smart Product Recommendations
 
 Discover highly-rated skincare products with direct product references and recommendations.
 
 ---
 
-## 🖼️ Application Preview
+##  Application Preview
 
 ### Home Dashboard
 
@@ -73,7 +73,7 @@ Discover highly-rated skincare products with direct product references and recom
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -98,7 +98,7 @@ Discover highly-rated skincare products with direct product references and recom
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 BeautySenseAI/
@@ -115,7 +115,7 @@ BeautySenseAI/
 
 ---
 
-## 📈 Use Cases
+##  Use Cases
 
 * Analyze customer sentiment for beauty and skincare products.
 * Identify strengths and weaknesses of cosmetic products.
@@ -125,7 +125,7 @@ BeautySenseAI/
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Integration with Transformer-based NLP models
 * Real-time beauty product review scraping
@@ -136,13 +136,13 @@ BeautySenseAI/
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Rohitha Panchamukhi M**
 
